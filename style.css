@@ -1,0 +1,53 @@
+body{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc {
+    display:flex;
+    flex-direction:column;
+    width:20%;
+    height:50vh;
+    border:2px solid black;
+}
+
+.display {
+    display:flex;
+    align-items:center;
+    word-break:break-all;
+    flex:1;
+    background-color: #eee;
+}
+
+.controls {
+    flex:1;
+    display:flex;
+    flex-basis:50%;
+}
+
+.numbers {
+    flex:1;
+    display:flex;
+    flex-wrap: wrap;
+    flex-basis:50%;
+}
+
+.num {
+    flex:1;
+    flex-basis:33.33%;
+    text-wrap:wrap;
+    border:1px solid black;
+}
+
+.operations {
+    flex:1;
+    display:flex;
+    flex-direction: column;
+}
+
+.operation {
+    flex:1;
+    border:1px solid black;
+}
